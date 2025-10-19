@@ -1,0 +1,91 @@
+.container{
+    width: 1440px;
+    height: 1000px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    cursor: pointer;
+    .mainn_word{
+        font-size: 55px;
+        font-weight: 400;
+        margin-left: 300px;
+        margin-top: 70px;
+    }
+    .main_flexDiv{
+    display: flex;
+        .block_div{
+            display:flex ;
+            flex-direction: column;
+            margin-top: 100px;
+
+            .img{
+                width: 400px;
+                border-radius: 30px;
+                margin-left: 60px;
+            }
+            .img2{
+                width: 400px;
+                border-radius: 30px;
+                margin-right: 70px;
+            }
+            .img3{
+                 width: 400px;
+                border-radius: 30px;
+                margin-right: 55px; 
+            }
+            .main_word{
+                font-size: 30px;
+                margin-top: 40px;
+                margin-left: 60px;
+            }
+               .main_word2{
+                font-size: 30px;
+                margin-top: 40px;
+            }
+            .text{
+                font-weight: 400;
+                font-size: 17px;
+                width: 80%;
+                margin-top: 20px;
+                margin-left: 50px;
+            }
+              .text2{
+                font-weight: 400;
+                font-size: 17px;
+                width: 80%;
+                margin-top: 20px;
+               
+            }
+        }
+    }
+    .black_div{
+        background-color: black;
+        width: 200px;
+        height: 60px;
+        border-radius: 120px;
+        margin-top: 90px;
+        margin-left: 600px;
+        display: flex;
+        
+             &:hover {
+    background-color: rgb(0, 74, 192);
+    
+  }
+        .white_word{
+            color: white;
+            margin-top: 20px;
+            margin-left: 25px;
+            font-weight: 400;
+            font-size: 23px;
+        }
+          .arro_img{
+                width: 25px;
+                height: 20px;
+                margin-left: 10px;
+                margin-top: 24px;
+            }
+    }
+}

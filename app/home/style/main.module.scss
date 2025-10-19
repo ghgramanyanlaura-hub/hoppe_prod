@@ -1,0 +1,102 @@
+.container{
+    display: flex;
+    .div_words{
+        display: flex;
+        flex-direction: column;
+        .displayFlex_div{
+            display: flex;
+            .b_lock{
+display: flex;
+flex-direction: column;
+                .main_word{
+                 
+                    font-size: 50px;
+                    margin-top: 150px;
+                    margin-left: 100px;
+                }
+                .flex_div{
+                    display: flex;
+
+                  .word{
+                    font-size: 50px;
+                    margin-left: 100px;
+                  }  
+                    .main_img{
+                        width: 40px;
+                        height: 40px;
+                       margin-top: 10px;
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+        .text{
+            margin-left: 110px;
+            margin-top: 20px;
+            width: 48%;
+            font-weight: 400;
+            gap: 15px;
+            font-size: 20px;
+        }
+        .black_div{
+            background-color: black;
+            display: flex;
+            width: 230px;
+            height: 55px;
+            margin-left: 110px;
+            margin-top: 40px;
+            border-radius: 120px;
+            cursor: pointer;
+
+             &:hover {
+    background-color: rgb(0, 74, 192);
+    
+  }
+
+            .white_word{
+                color: white;
+                font-weight: 400;
+                margin-top: 15px;
+                font-size: 20px;
+                margin-left: 30px;
+            }
+            .arro_img{
+                width: 25px;
+                height: 20px;
+                margin-left: 10px;
+                margin-top: 18px;
+            }
+    }
+}
+.display_div{
+    display: flex;
+    margin-right: 120px;
+    gap: 15px;
+    .block_div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 20px;
+
+        .img{
+            width: 270px;
+            height: 270px;
+        }
+    }
+    .wite_div{
+        width: 290px;
+        background-color: white;
+        box-shadow: -1px 0px 15px 0px rgba(137,124,124,0.75);
+    -webkit-box-shadow: -1px 0px 15px 0px rgba(137,124,124,0.75);
+    -moz-box-shadow: -1px 0px 15px 0px rgba(137,124,124,0.75);
+    border-radius: 10px;
+    padding: 15px;
+   
+   
+    }
+      .big_img{
+       width: 100%;
+    }
+}
+
+}
