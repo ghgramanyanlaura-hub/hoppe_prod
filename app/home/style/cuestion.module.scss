@@ -1,0 +1,112 @@
+
+.hachax_container {
+  background-color: white;
+  width: 1240px;
+  height: 600px;
+  border-radius: 15px;
+  margin: 150px;
+  margin-left: 60px;
+}
+
+.hachax_h2 {
+  margin: 20px;
+  margin-left: 60px;
+  color: #263c97;
+  font-weight: 100;
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hachax_p {
+  font-size: 15px;
+  margin-left: 60px;
+  font-weight: 100;
+}
+
+
+
+.hachax_display {
+  display: flex;
+}
+
+.hachax_0p_p_p_p {
+  margin-top: 13px;
+  margin-left: 10px;
+  color: #263c97;
+  font-size: 22px;
+  display: flex;
+}
+
+.fa_button {
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: none;
+  position: relative;
+  z-index: 999999999999999999999999999999999999999999;
+}
+.fa_button1 {
+  margin-top: -40px;
+  margin-left: 310px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: none;
+}
+.fa_button2 {
+  margin-top: -40px;
+  margin-left: 370px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: none;
+}
+.fa_button3 {
+  margin-top: -497px;
+  margin-left: 530px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: none;
+}
+
+.hachax_cub {
+  width: 600px;
+  height: 100px;
+  margin: 20px;
+  margin-left: 60px;
+  border: 1px solid #263c97;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.white {
+  color: white;
+}
+
+.hachax_cub.open {
+  background-color: #263c97;
+  height: 480px;
+}
+
+.answer {
+  font-size: 20px;
+  color: white;
+  padding: 10px 16px;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

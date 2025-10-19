@@ -1,0 +1,51 @@
+.make_h2 {
+  margin-left: 42%;
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: 400;
+  color: black;
+}
+
+.bio_container {
+  margin-left: 18%;
+  margin-top: 60px;
+}
+
+.long_cub {
+  width: 900px;
+  border: 1px solid rgb(210, 202, 202);
+  margin-top: 10px;
+  /* padding-bottom optional */
+}
+
+.long_cub1 {
+  width: 900px;
+  border: 1px solid rgb(210, 202, 202);
+  margin-top: 10px;
+}
+
+.h3_how, .h3_how1 {
+  font-size: 24px;
+  margin-left: 30px;
+}
+
+.icon, .icon1 {
+  font-size: 25px;
+  font-weight: 100;
+  position: absolute;
+ margin-left: 840px;
+ margin-top: -55px;
+  cursor: pointer;
+}
+
+.answer {
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  max-height: 0;
+  padding: 0 20px;
+}
+
+.open {  
+  /* Այս սինթաքսը ավելացվում է կոդից, երբ բաց է */
+  padding: 12px 20px;
+}
